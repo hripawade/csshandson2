@@ -1,0 +1,136 @@
+*{
+   margin: 0%;
+    padding:0%;
+}
+   
+body {
+    border: 5px groove greenyellow;
+   
+    /* margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 30px; */
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrSYg1yPJGVCRKA1lndcOLu4Zq9mhVFO0Ug6QeYODc&s") ;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+   
+
+
+.header {
+    display: inline-block;
+}
+
+.dhaba {
+    display: inline-block;
+    border: 5px solid red;
+    height: 100px;
+    width: 250px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    font-style: italic;
+    margin-top: 40px;
+    margin-left: 60px;
+    padding-left: 18px;
+    
+}
+
+.home {
+    display: inline-block;
+    border: 5px solid red;
+    height: 100px;
+    width: 250px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    font-style: italic;
+    margin-top: 40px;
+    margin-left: -70px;
+    padding-left: 18px;
+}
+
+.email {
+
+    display: inline-block;
+    border: 5px solid red;
+    height: 120px;
+    width: 281px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    font-style: italic;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+
+.circle {
+    display: inline-block;
+    margin-left: 60px;
+    height: 400px;
+    width: 400px;
+    border: 5px solid grey;
+    background-color: aquamarine;
+    border-radius: 50%;
+}
+
+.head {
+    padding-top: 60px;
+    margin-top: 75px;
+    text-align: center;
+    font-style: italic;
+
+}
+
+.rectangle {
+    display: inline-block;
+    border: 5px dotted red;
+    margin-left: 170px;
+    margin-top: 10px;
+    margin-bottom: 107px;
+    padding-bottom: 115px;
+    height: 628.167px;
+    width: 352.367px;
+
+    text-align: center;
+
+}
+.menu{
+    display: inline-block;
+    text-align: center;
+    padding-left: 150px;
+padding-right: 150px;
+margin-left: 400px;
+    border: 5px solid red;
+    background-color: black;
+    color: white;
+    font-style: italic;
+    border-radius: 20px;
+    font-size: 22px;
+}
+.rum{
+    display: flex;
+    margin: 20px auto 0;
+    justify-content: space-between;
+    justify-content: space-around;
+    flex-flow: wrap;
+  
+    
+}
+.suc{
+    background-color: aqua;
+border: 2px solid black;
+border-radius: 20px;
+height: 300px;
+flex-basis: 25%;
+text-align: center;
+
+    }
+.suc ul{
+    padding-left: 30px;
+   
+    padding-top: 11%;
+}    
+.suc ul li{
+    padding-left: 40%;
+}
